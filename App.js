@@ -1,6 +1,7 @@
 
 import {View } from 'react-native';
-import { Funding } from './Screens/Funding';
+import { Funding } from './FRAMEWORK/Screens/Funding';
+
 
 export default function App() {
   return (
