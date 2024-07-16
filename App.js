@@ -1,13 +1,14 @@
 
-import {View } from 'react-native';
-import { Funding } from './FRAMEWORK/Screens/Funding';
+import { View } from 'react-native';
+import { FundingWallet } from './FRAMEWORK/Screens/FundingWallet';
 
 
 export default function App() {
   return (
-    <View style={{flex: 1}}>
-      <Funding/>
+    <View style={{flex:1}}>
+      <FundingWallet/>
     </View>
+  
   );
 }
 
