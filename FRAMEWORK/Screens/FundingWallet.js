@@ -1,4 +1,4 @@
-import { FontAwesome5, FontAwesome6, } from "@expo/vector-icons";
+import { FontAwesome, FontAwesome5, FontAwesome6, } from "@expo/vector-icons";
 import {StatusBar, StyleSheet, Text,TouchableOpacity,View } from "react-native";
 
 
@@ -15,10 +15,10 @@ export function FundingWallet() {
                 </View>
                 <Text style={styles.select}>Select Method</Text>
             <TouchableOpacity style={styles.btn}>
-                <Text>Bank Transfer</Text>
+                <Text>Bank Transfer <FontAwesome name="bank" size={15}/></Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.btn}>
-                <Text>Debit Card</Text>
+                <Text>Debit Card <FontAwesome name="credit-card" size={15}/></Text>
             </TouchableOpacity>
                 
             </View>
